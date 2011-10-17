@@ -1,4 +1,6 @@
 Blog::Application.routes.draw do
+  resources :employees
+
   resources :posts
 
   get "home/index"
