@@ -6,7 +6,7 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem "bcrypt-ruby", :require => 'bcrypt'
+gem 'bcrypt-ruby', '~> 3.0.1', :platform => 'ruby'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
